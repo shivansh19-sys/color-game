@@ -94,7 +94,7 @@ squares[i].style.display="none";
 hard.addEventListener("click",function(){
    easy.classList.remove("selected");
     hard.classList.add("selected");
-    colors = generatecolor(numbersquare); 
+    colors = generatecolor(6); 
     picked=pick();
 	
 	
