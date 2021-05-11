@@ -83,7 +83,7 @@ easy.addEventListener("click",function(){
 
 for(var i=3;i<6;i++)
 {
-squares[i].style.display="none";
+squares[i].style.display="color[i]";
 }
   
  
@@ -102,6 +102,10 @@ hard.addEventListener("click",function(){
 {
 	
 	squares[i].style.background=colors[i];
+}
+for(var i=3;i<6;i++)
+{
+squares[i].style.display="none";
 }
 
 });
